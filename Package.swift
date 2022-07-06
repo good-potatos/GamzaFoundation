@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "GamzaFoundation-iOS",
+    name: "GamzaFoundation",
     platforms: [.iOS(.v15), .macOS(.v12)],
     products: [
         .library(
-            name: "GamzaFoundation-iOS",
-            targets: ["GamzaFoundation-iOS"]),
+            name: "GamzaFoundation",
+            targets: ["GamzaFoundation"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "GamzaFoundation-iOS",
+            name: "GamzaFoundation",
             dependencies: [])
     ]
 )
