@@ -1,3 +1,3 @@
-# GamzaFoundation-iOS
+# GamzaFoundation
 
 A description of this package.
