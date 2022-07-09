@@ -12,8 +12,8 @@ let package = Package(
             targets: ["GamzaFoundation"]
         ),
         .library(
-            name: "GamzaFoundation_Dev",
-            targets: ["GamzaFoundation_Dev"]
+            name: "GamzaFoundationDev",
+            targets: ["GamzaFoundationDev"]
         )
     ],
     dependencies: [
@@ -53,7 +53,7 @@ let package = Package(
                 .product(name: "Kingfisher", package: "Kingfisher"),
             ]),
         .target(
-            name: "GamzaFoundation_Dev",
+            name: "GamzaFoundationDev",
             dependencies: [
                 .product(name: "FLEX", package: "FLEX"),
                 .product(name: "SwiftyBeaver", package: "SwiftyBeaver"),
